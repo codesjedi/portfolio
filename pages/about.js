@@ -1,11 +1,11 @@
-import React from "react";
-import ContainerBlock from "../components/ContainerBlock";
-import AboutMe from "../components/AboutMe";
+import React from "react"
+import ContainerBlock from "../components/ContainerBlock"
+import AboutMe from "../components/AboutMe"
 
 export default function about() {
   return (
-    <ContainerBlock>
+    <ContainerBlock title="Sobre mí - EG Software Factory">
       <AboutMe />
     </ContainerBlock>
-  );
+  )
 }

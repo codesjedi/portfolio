@@ -10,7 +10,7 @@ import userData from "@constants/data"
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="EG Software Factory - Software Developer"
+      title="EG Software Factory"
       description="Web solutions development"
     >
       <Hero />
