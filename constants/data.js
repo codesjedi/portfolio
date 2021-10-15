@@ -8,6 +8,11 @@ const userData = {
   address: "Asunción - Paraguay.",
   projects: [
     {
+      title: "E-commerce",
+      link: "https://commerce-eg.vercel.app",
+      imgUrl: "/commerce.png",
+    },
+    {
       title: "Contact",
       link: "https://contact-egsoftwarefactory.vercel.app",
       imgUrl: "/contact-eg.png",
