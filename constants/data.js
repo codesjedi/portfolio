@@ -36,14 +36,23 @@ const userData = {
       `Comencé a programar con html, CSS y Javascript, luego fui por el mundo del backend con Python y Java.`,
       `Pero hoy en día trabajo en lo que realmente me apasiona, el desarrollo web, las aplicaciones web, la tecnología en la nube.`,
     ],
-    currentProject: "EG Software Factory",
-    currentProjectUrl: "https://egsoftwarefactory.online",
+    currentPersonalProject: "EG Software Factory",
+    currentPersonalProjectUrl: "https://egsoftwarefactory.online",
+    currentJobProject: "Edge Mobile Ideas",
+    currentJobProjectUrl: "https://edge.com.py"
   },
   experience: [
+      {
+        title: "Developer",
+        company: "Edge S.A.",
+        year: "2021",
+        companyLink: "https://edge.com.py/",
+        desc: "REST API development with Apigee, Javascript, AWS, etc."
+      },
     {
       title: "Software Developer",
       company: "EG Software Factory",
-      year: "2020",
+      year: "Since 2019",
       companyLink: "https://egsfotwarefactory.online",
       desc: "Software development using cutting edge web technologies. Next, React, Node, Typescript, Mongo.",
     },
@@ -79,10 +88,20 @@ const userData = {
   resumeUrl: "https://linkedin.com/in/fenriquegimenez",
   socialLinks: {
     instagram: "https://instagram.com/",
-    twitter: "https://twitter.com/fenriquegvera",
+    twitter: "https://twitter.com/yvysunu",
     linkedin: "https://linkedin.com/in/fenriquegimenez",
     github: "https://github.com/fenriquegimenez",
     facebook: "https://facebook.com/",
+  },
+  skills: {
+    postgres:
+      "https://res.cloudinary.com/eg-software-factory/image/upload/v1634152998/Portfolio/1200px-Postgresql_elephant.svg_uougm6.png",
+    mongo:
+      "https://res.cloudinary.com/eg-software-factory/image/upload/v1634153091/Portfolio/mongo-db-logo_ekbfdc.png",
+    next: "https://res.cloudinary.com/eg-software-factory/image/upload/v1634152779/Portfolio/1200px-Nextjs-logo.svg_gb1lqw.png",
+    node: "https://res.cloudinary.com/eg-software-factory/image/upload/v1634152986/Portfolio/Node.js_logo_egety5.svg",
+    python:
+      "https://res.cloudinary.com/eg-software-factory/image/upload/v1634152762/Portfolio/1200px-Python-logo-notext.svg_hltcsa.png",
   },
 }
 

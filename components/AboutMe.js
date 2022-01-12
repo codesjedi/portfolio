@@ -1,6 +1,6 @@
 import React from "react"
 import userData from "@constants/data"
-
+import { skills } from "../constants/data"
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
@@ -15,12 +15,18 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title} Actualmente en{" "}
+            {userData.about.title} <br/> Actualmente en{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
+              href={userData.about.currentJobProjectUrl}
             >
-              {userData.about.currentProject}
+              {userData.about.currentJobProject}
+            </a> y{" "}
+            <a
+                className="bg-red-500 rounded-md px-2 py-1 text-white"
+                href={userData.about.currentPersonalProject}
+            >
+              {userData.about.currentPersonalProject}
             </a>
           </p>
         </div>
@@ -147,28 +153,22 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
-                src="https://res.cloudinary.com/eg-software-factory/image/upload/v1634152779/1200px-Nextjs-logo.svg_gb1lqw.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+              <img src={userData.skills.next} className="h-20 w-20 mx-4 my-4" />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4"
               />
+              <img src={userData.skills.node} className="h-20 w-20 mx-4 my-4" />
               <img
-                src="https://res.cloudinary.com/eg-software-factory/image/upload/v1634152986/Node.js_logo_egety5.svg"
+                src={userData.skills.mongo}
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://res.cloudinary.com/eg-software-factory/image/upload/v1634153091/mongo-db-logo_ekbfdc.png"
+                src={userData.skills.postgres}
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://res.cloudinary.com/eg-software-factory/image/upload/v1634152998/1200px-Postgresql_elephant.svg_uougm6.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://res.cloudinary.com/eg-software-factory/image/upload/v1634152762/1200px-Python-logo-notext.svg_hltcsa.png"
+                src={userData.skills.python}
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
