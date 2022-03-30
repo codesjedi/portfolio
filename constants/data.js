@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "fenriquegimenez",
   name: "Enrique Giménez",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar2.jpg",
   email: "enrique@egsoftwarefactory.online",
   phone: "+595 991 297 525",
   address: "Asunción - Paraguay.",
@@ -42,13 +42,13 @@ const userData = {
     currentJobProjectUrl: "https://edge.com.py"
   },
   experience: [
-      {
-        title: "Developer",
-        company: "Edge S.A.",
-        year: "2021",
-        companyLink: "https://edge.com.py/",
-        desc: "REST API development with Apigee, Javascript, AWS, etc."
-      },
+    {
+      title: "Developer",
+      company: "Edge S.A.",
+      year: "2021",
+      companyLink: "https://edge.com.py/",
+      desc: "REST API development with Apigee, Javascript, AWS, etc."
+    },
     {
       title: "Software Developer",
       company: "EG Software Factory",
