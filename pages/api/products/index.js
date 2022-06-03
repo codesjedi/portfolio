@@ -1,5 +1,7 @@
 export default (req, res) => {
   res.statusCode = 200
+  const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress
+  console.log('ip: ', ip)
   const response = {
     error: false,
     errorText: '',
