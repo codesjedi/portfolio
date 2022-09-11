@@ -1,5 +1,5 @@
 const userData = {
-  githubUsername: "fenriquegimenez",
+  githubUsername: "codesjedi",
   name: "Enrique Giménez",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar2.jpg",
@@ -50,16 +50,16 @@ const userData = {
     {
       title: "FullStack Developer",
       company: "Edge S.A.",
-      year: "2021",
+      year: "Since 2021",
       companyLink: "https://edge.com.py/",
       desc: "REST API development with Apigee, Javascript, AWS, etc.",
     },
     {
-      title: "Software Developer",
-      company: "Owner",
-      year: "2019",
+      title: "Full Stack Developer",
+      company: "EG Software Factory",
+      year: "Since 2019",
       companyLink: "https://enrique.digital",
-      desc: "Software development using cutting edge web technologies. Next, React, Node, Typescript, Mongo.",
+      desc: "Software development using cutting edge web technologies. Node, Typescript, Postgres, Jest, etc.",
     },
     {
       title: "Backend Developer",

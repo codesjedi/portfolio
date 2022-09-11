@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react"
-import Link from "next/link"
-import getLatestRepos from "@lib/getLatestRepos"
-import userData from "@constants/data"
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import getLatestRepos from "@lib/getLatestRepos";
+import userData from "@constants/data";
 
 export default function LatestCode({ repositories }) {
-  const [repos, setRepos] = useState([])
+  const [repos, setRepos] = useState([]);
 
   useEffect(async () => {
     // let latestRepos = await getLatestRepos(userData);
     // console.log("latestRepos", latestRepos);
-    setRepos(repositories)
-  }, [])
+    setRepos(repositories);
+  }, []);
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">
@@ -51,7 +51,7 @@ export default function LatestCode({ repositories }) {
           ))}
       </div>
     </section>
-  )
+  );
 }
 
 const GithubRepoCard = ({ latestRepo }) => {
@@ -64,7 +64,7 @@ const GithubRepoCard = ({ latestRepo }) => {
         {latestRepo.description}
       </p>
       <a
-        href="https://github.com/fenriquegimenez"
+        href="https://github.com/codesjedi"
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
       >
         <p>Ver repositorio </p>
@@ -73,5 +73,5 @@ const GithubRepoCard = ({ latestRepo }) => {
         </div>
       </a>
     </div>
-  )
-}
+  );
+};
