@@ -43,14 +43,21 @@ const userData = {
     ],
     currentPersonalProject: "EG Software Factory",
     currentPersonalProjectUrl: "https://enrique.digital",
-    currentJobProject: "Edge Mobile Ideas",
+    currentJobProject: "XO Capital",
     currentJobProjectUrl: "https://edge.com.py",
   },
   experience: [
     {
+      title: "Software Engineer",
+      company: "XO Capital",
+      companyLink: "https://xo.capital",
+      year: "since 2022",
+      desc: "Node, Python, React, Next, Django, Postgres, Mongo"
+    },
+    {
       title: "FullStack Developer",
       company: "Edge S.A.",
-      year: "Since 2021",
+      year: "2021 - 2022",
       companyLink: "https://edge.com.py/",
       desc: "REST API development with Apigee, Javascript, AWS, etc.",
     },
